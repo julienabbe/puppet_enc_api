@@ -1,0 +1,10 @@
+fastapi
+sqlalchemy
+uvicorn
+celery
+flower
+redis
+pydantic
+python-multipart
+pyyaml
+redislite

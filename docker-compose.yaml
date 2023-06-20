@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  puppet_enc_api:
+    image: puppet_enc_api:latest
+    expose:
+      - 80
+    ports:
+      - 80:80
+    volumes:
+      - $PWD/api:/usr/src/app
+    environment:
+      - DISPLAY=:0
